@@ -5,7 +5,7 @@ import time
 
 def main():
     video_path = 'data/video.mp4'
-    config_path = 'model_data\ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
+    config_path = 'model_data/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
     classes_path = 'model_data/coco.names'
     model_path = 'model_data/frozen_inference_graph.pb'
     
